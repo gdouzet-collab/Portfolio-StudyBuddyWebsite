@@ -134,6 +134,13 @@ h1{
   opacity: 1;
   box-shadow: none;
 }
+.press-logo {
+  width: 200px;
+  height: auto;
+  display: inline-block;
+  opacity: 1;
+  visibility: visible;
+}
 
 /* ===== Pricing ===== */
 #pricing{
