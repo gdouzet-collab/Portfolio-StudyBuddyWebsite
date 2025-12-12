@@ -1,0 +1,202 @@
+/* ===== CSS Style Sheet for Lab 3 =====*/
+
+body{
+  font-family: 'Macondo', cursive;
+  color: #1a1a1a;
+  background-color: #fff;
+}
+
+/* ===== Navbar/Title ===== */
+#title{
+  background: linear-gradient(
+              180deg,
+              rgba(122,46,122,.12) 0%,
+              rgba(197,101,181,.18) 60%,
+              rgba(244,201,218,.28) 100%
+            ),
+            #F4F7FF;
+  padding-top: 110px;
+}
+
+.navbar{ padding: .75rem 2rem; }
+
+.navbar-brand{
+  font-family: 'Macondo Swash Caps', cursive;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #3C0A3E;
+}
+
+.navbar-link{ color: #3C0A3E; }
+
+.navbar-link:hover{ color: #7A2E7A; }
+
+.title-row{ margin-top: 2.5rem; }
+
+h1{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.35;
+  color: #1A0224;
+}
+
+.btn-primary{
+  background-color: #7A2E7A;
+  border-color: #7A2E7A;
+  box-shadow: none !important;
+}
+
+.btn-primary:hover{
+  background-color: #3C0A3E;
+  border-color: #3C0A3E;
+}
+
+.btn-outline-primary{
+  color: #7A2E7A;
+  border-color: #7A2E7A;
+  box-shadow: none !important;
+}
+
+.btn-outline-primary:hover{
+  background-color: #7A2E7A;
+  color: #fff;
+}
+
+.download-button{ margin: 5% 3% 5% 0; }
+
+.title-image{
+  width: 70%;
+  transform: rotate(15deg);
+}
+
+/* ===== Features ===== */
+#features{
+  padding: 7% 15%;
+  background-color: #F7F3F8;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-box h3{
+  font-weight: 700;
+  color: #3C0A3E;
+}
+
+.feature-box p{ color: #6b6b6b; }
+
+.icon-pill{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 68px;
+  height: 68px;
+  border-radius: 999px;
+  background-color: #7A2E7A;
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+
+/* ===== Testimonials ===== */
+#testimonials{
+  text-align: center;
+  background: #F4E6F1;
+}
+
+.carousel-item{ padding: 7% 15%; }
+
+#testimonials h2{ color: #3C0A3E; }
+
+.testimonial-image{
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+/* ===== Press ===== */
+#press{
+  background-color: #C565B5;
+  text-align: center;
+  padding: 18px 0;
+}
+
+.press-logo{
+  height: 160px;
+  width: auto;
+  object-fit: contain;
+  margin: 0 18px;
+  filter: none;
+  opacity: 1;
+  box-shadow: none;
+}
+
+/* ===== Pricing ===== */
+#pricing{
+  padding: 90px 0;
+  text-align: center;
+  background: #fff;
+}
+
+.pricing-header{
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #3C0A3E;
+}
+
+.card{
+  border: 1px solid #ccc;
+  box-shadow: none;
+}
+
+.card-header{ background:#faf7fb; }
+
+#pricing .btn{
+  background-color: #7A2E7A;
+  border-color: #7A2E7A;
+  color:#fff;
+  font-weight:700;
+}
+
+#pricing .btn:hover,
+#pricing .btn:focus {
+  background-color: #3C0A3E;
+  border-color: #3C0A3E;
+  color: #fff;
+}
+
+/* ===== CTA & Footer ===== */
+#cta{
+  background-color: #E7C2E4;
+  color:#3C0A3E;
+  padding: 7% 15%;
+  text-align:center;
+}
+
+.cta-heading{
+  font-weight:700;
+  font-size: 2.4rem;
+  line-height: 1.35;
+  margin-bottom: 28px;
+}
+
+#footer{
+  padding: 3% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin: 0 10px;
+  font-size: 1.2rem;
+  color: #3C0A3E;
+}
+.social-icon:hover{ color: #7A2E7A; }
+
+/* ===== Responsive ===== */
+@media (max-width: 1028px){
+  #title{ text-align:center; }
+  .title-image{ position: static; transform: rotate(0); width: 65%; }
+}
